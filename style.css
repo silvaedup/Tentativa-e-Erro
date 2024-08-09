@@ -1,0 +1,27 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: darkcyan;
+  width: 100%;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu li {
+  align-items: center;
+}
