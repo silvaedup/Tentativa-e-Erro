@@ -4,7 +4,6 @@ body {
   background: #f7f7f7;
   display: grid;
   gap: 3.75rem;
-  justify-items: right;
 }
 
 a {
@@ -24,6 +23,7 @@ header {
   gap: 60px;
   background-color: darkcyan;
   width: 100%;
+  justify-items: right;
 }
 
 .menu {
