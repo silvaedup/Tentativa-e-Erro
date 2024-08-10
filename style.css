@@ -4,19 +4,12 @@ body {
   background: #f7f7f7;
   display: grid;
   gap: 3.75rem;
-  justify-items: center;
+  justify-items: right;
 }
 
 a {
   text-decoration: none;
   color: #f7f7f7;
-}
-
-.logo {
-  margin: 0px;
-  padding: 0px;
-  width: 30px;
-  height: 30px;
 }
 
 ul {
