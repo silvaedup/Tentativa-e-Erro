@@ -1,13 +1,19 @@
+html {
+  height: 1000px;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
   background: #f7f7f7;
   display: grid;
-  gap: 3.75rem;
 }
 
 a {
   text-decoration: none;
+  color: #f7f7f7;
+}
+
+header a {
   color: #f7f7f7;
 }
 
@@ -19,11 +25,11 @@ ul {
 
 header {
   display: grid;
-  justify-items: left;
   gap: 60px;
   background-color: darkcyan;
   width: 100%;
   justify-items: right;
+  font-size: 1rem;
 }
 
 .menu {
@@ -31,5 +37,37 @@ header {
   flex-wrap: wrap;
   gap: 20px;
   padding: 1rem 2rem;
-  text-transform: uppercase;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-image: url("/img/Painel.jpg");
+  border-radius: 2rem;
+  margin: 0.5rem;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+main h1,
+h2,
+p {
+  color: #f7f7f7;
+}
+article {
+  margin: 10rem 4rem;
+  padding: 0px;
+}
+
+.botao1 {
+  font-size: 1.25rem;
+  display: block;
+  margin: 0px;
+  width: 8.5rem;
+  background-color: darkcyan;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
 }
