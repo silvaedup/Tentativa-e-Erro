@@ -66,3 +66,40 @@ article {
   border-radius: 2rem;
   margin-top: 2rem;
 }
+
+.vantagens {
+  background: #fff;
+  padding: 2.5rem;
+}
+
+.vantagens-itens {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 1.25rem;
+}
+
+.vantagens-itens:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.vantagens-itens:hover {
+  border-left: 4px solid darkcyan;
+}
+
+.vantagens-itens p {
+  grid-column: 2;
+}
+
+.botao2 {
+  font-size: 1.25rem;
+  display: flex;
+  margin: 0px;
+  width: 8.5rem;
+  background-color: darkcyan;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  margin-block-end: 2rem;
+  justify-items: center;
+}
