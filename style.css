@@ -51,11 +51,6 @@ main {
   max-width: 100%;
 }
 
-main h1,
-h2,
-p {
-  color: #f7f7f7;
-}
 article {
   margin: 10rem 4rem;
   padding: 0px;
