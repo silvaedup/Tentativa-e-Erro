@@ -4,3 +4,13 @@ $color_orange: #ff5f00;
 
 // Fonts
 $font_semibold: 600;
+
+/* Calc Font Site */
+@function calculateRem($size) {
+  $remSize: calc($size / 16px);
+  @return calc($remSize * 1rem);
+}
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}

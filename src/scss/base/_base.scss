@@ -1,4 +1,4 @@
-@use '../abstracts' as *;
+@use "../abstracts" as *;
 
 /* Utils */
 
@@ -11,9 +11,10 @@
 *::after {
   box-sizing: border-box;
 }
-*{
+* {
   padding: 0;
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 *,
 *:focus {
@@ -63,7 +64,7 @@ meter {
 
 body,
 html * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -86,18 +87,18 @@ h6 {
   margin: 0;
 }
 
-.container{
+.container {
   z-index: 2;
 }
 
 a,
 button,
-.bt-close{
+.bt-close {
   cursor: pointer;
 }
 
 .ui-widget.ui-widget-content.ui-autocomplete {
-    max-height: 250px;
-    overflow-y: auto;
-    overflow-x: hidden;
+  max-height: 250px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
