@@ -1,5 +1,11 @@
 @use "../abstracts" as *;
 
-h1 {
-  color: $color_white;
+.hero {
+  background-image: url("/src/assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  .container {
+    width: 1120px;
+    margin: 0 auto;
+  }
 }
